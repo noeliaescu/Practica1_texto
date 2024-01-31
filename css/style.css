@@ -1,0 +1,35 @@
+body { 
+  background: 	#989998; 
+  color: #eee;
+}
+
+h1 {
+  text-align: center;
+  background-color: #666666;
+  border: 5px black solid;
+}
+
+#uno {
+    background-color: #666665;
+    border: 5px black solid;
+}
+
+#dos {
+    background-color:  #336699;
+    border: 5px black solid;
+}
+
+/* Para pantallas pequeñas */
+@media all and (max-width: 1000px) {
+    #uno {
+      text-align: right;
+      clear: right;
+    }
+
+    #dos {
+      text-align: left;
+      clear: left;
+    }
+}
+
+
